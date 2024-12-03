@@ -1,0 +1,14 @@
+"use strict";(self.webpackChunkcomponent_library=self.webpackChunkcomponent_library||[]).push([[547],{"./src/components/Radio/Radio.stories.tsx":(__unused_webpack_module,__webpack_exports__,__webpack_require__)=>{__webpack_require__.r(__webpack_exports__),__webpack_require__.d(__webpack_exports__,{Default:()=>Default,Disabled:()=>Disabled,__namedExportsOrder:()=>__namedExportsOrder,default:()=>Radio_stories});__webpack_require__("./node_modules/react/index.js");var styled_components_browser_esm=__webpack_require__("./node_modules/styled-components/dist/styled-components.browser.esm.js"),jsx_runtime=__webpack_require__("./node_modules/react/jsx-runtime.js");const CustomRadio=styled_components_browser_esm.Ay.input.attrs({type:"radio"})`
+    margin: 8px;
+    cursor: ${_ref=>{let{disabled}=_ref;return disabled?"not-allowed":"pointer"}};
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:disabled {
+        opacity: 0.6;
+    }
+`,Radio=_ref2=>{let{id,name,value,checked,disabled,onChange}=_ref2;return(0,jsx_runtime.jsx)(CustomRadio,{id,name,value,checked,disabled,onChange})},Radio_Radio=Radio;Radio.__docgenInfo={description:"",methods:[],displayName:"Radio",props:{id:{required:!0,tsType:{name:"string"},description:""},name:{required:!0,tsType:{name:"string"},description:""},value:{required:!0,tsType:{name:"string"},description:""},checked:{required:!1,tsType:{name:"boolean"},description:""},disabled:{required:!1,tsType:{name:"boolean"},description:""},onChange:{required:!1,tsType:{name:"signature",type:"function",raw:"(event: React.ChangeEvent<HTMLInputElement>) => void",signature:{arguments:[{type:{name:"ReactChangeEvent",raw:"React.ChangeEvent<HTMLInputElement>",elements:[{name:"HTMLInputElement"}]},name:"event"}],return:{name:"void"}}},description:""}}};const Radio_stories={title:"Components Assignment/Radio",component:Radio_Radio},Default=()=>(0,jsx_runtime.jsx)(Radio_Radio,{id:"radio1",name:"radio",value:"value1"}),Disabled=()=>(0,jsx_runtime.jsx)(Radio_Radio,{id:"radio2",name:"radio",value:"value2",disabled:!0}),__namedExportsOrder=["Default","Disabled"];Default.parameters={...Default.parameters,docs:{...Default.parameters?.docs,source:{originalSource:'() => <Radio id="radio1" name="radio" value="value1" />',...Default.parameters?.docs?.source}}},Disabled.parameters={...Disabled.parameters,docs:{...Disabled.parameters?.docs,source:{originalSource:'() => <Radio id="radio2" name="radio" value="value2" disabled />',...Disabled.parameters?.docs?.source}}}}}]);
+//# sourceMappingURL=components-Radio-Radio-stories.206d5097.iframe.bundle.js.map
